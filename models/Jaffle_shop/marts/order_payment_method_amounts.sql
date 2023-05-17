@@ -1,3 +1,4 @@
+{{ config (database='REPORTING_DATA',schema="SALES") }}
 {% set payment_methods = get_payment_methods() %}
 
 select

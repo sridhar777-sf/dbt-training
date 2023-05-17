@@ -2,6 +2,7 @@
     config(
       materialized="view",
       alias="CustomerOrders",
+      schema='TEST',
       sql_header="alter session set timezone='Asia/Kolkata';"
     )
 }}
